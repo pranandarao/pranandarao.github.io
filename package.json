@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "deploy:github": "npm run build && node ./scripts/deploy-github",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -19,6 +21,7 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   },
   "repository": {
