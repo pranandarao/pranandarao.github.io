@@ -8,6 +8,7 @@ main{
   height: 100vh;
   background: #4e54c8; 
   background-size: cover;
+  overflow: hidden;
 }
 #relative{
   background: inherit;
@@ -25,8 +26,8 @@ main{
   border-radius: 8px;
 }
 #container:before{
-  width: calc(100% + 50px);
-  height: calc(auto + 50px);
+  width: 1000000000000000000000000px;
+  height: 1000000000000000000000000px;
   content: "";
   position: absolute;
   top: -50px;
@@ -35,7 +36,7 @@ main{
   right: 0;
   background: inherit;
   box-shadow: inset 0 0 0 100000000000000000000000000000000000000000000000000000000000000000000px rgba(255,255,255,0.2);
-  filter: blur(5px);
+  filter: blur(10px);
 }
 #text{
   filter: blur(0);
@@ -75,6 +76,8 @@ main{
   width: 100%;
   height: inherit;
   overflow: hidden;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 .circles li{
