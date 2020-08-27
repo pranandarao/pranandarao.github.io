@@ -10,10 +10,25 @@ const ListLink = props => (
 */
 
 export default ({ children }) => (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem`, backgroundColor: 'gray'}}>
-        <header>
-            <h1>Welcome to my website!</h1>
-        </header>
-        {children}
-    </div>
+    <main>
+        <div class="area" >
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <div id="container">
+                    <div id="text">
+                        {children}
+                    </div>
+                </div>
+            </ul>
+        </div >
+    </main>
 )

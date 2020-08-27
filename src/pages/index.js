@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 
 export default () => (
 <Layout>
-    <div><span>Hello world!</span></div>
+    <h1>Hi</h1>
+    <span>Hello world!</span>
 </Layout>
 )
