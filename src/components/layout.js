@@ -10,25 +10,7 @@ const ListLink = props => (
 */
 
 export default ({ children }) => (
-    <main>
-        <div class="area" >
-            <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <div id="container">
-                    <div id="text">
-                        {children}
-                    </div>
-                </div>
-            </ul>
-        </div >
-    </main>
+    <div id="container">
+        {children}
+    </div>
 )
