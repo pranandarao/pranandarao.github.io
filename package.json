@@ -23,8 +23,12 @@
     "react-typography": "^0.16.19",
     "save": "^2.4.0",
     "typography": "^0.16.19",
+    "typography-theme-alton": "^0.16.19",
+    "typography-theme-bootstrap": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19",
-    "typography-theme-grand-view": "^0.16.19"
+    "typography-theme-grand-view": "^0.16.19",
+    "typography-theme-lawton": "^0.16.19",
+    "typography-theme-lincoln": "^0.16.19"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",

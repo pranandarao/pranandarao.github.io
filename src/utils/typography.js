@@ -1,11 +1,11 @@
 import Typography from "typography"
-import grandviewTheme from "typography-theme-grand-view"
+import typeTheme from "typography-theme-lincoln"
 
-grandviewTheme.bodyColor = 'white';
-grandviewTheme.headerColor = 'white';
+typeTheme.bodyColor = 'white';
+typeTheme.headerColor = 'white';
 
 const typography = new Typography(
-    grandviewTheme
+    typeTheme
 );
 
 export default typography;  

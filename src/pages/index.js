@@ -11,11 +11,14 @@ export default () => (
                     <p>Welcome to my website</p>
                     <div class="action-wrapper">
                         <a href="#0" class="button main-action"><span>Get started</span></a>
-                        <a href="#0" class="button"><span>Learn More</span></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <div class="main-section">
+        <h1>About</h1>
+        <p>I'm currently a Sophomore at Purdue University majoring in Computer Engineering and minoring in Mathematics. I'm also really interested in </p>
+    </div>
 </Layout>
 )
