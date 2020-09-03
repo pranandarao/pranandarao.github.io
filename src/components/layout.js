@@ -1,10 +1,10 @@
 import React from "react"
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Link } from 'gatsby'
+//import { library } from '@fortawesome/fontawesome-svg-core'
+//import { fab } from '@fortawesome/free-brands-svg-icons'
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+//import { Link } from 'gatsby'
 
-library.add(fab)
+//library.add(fab)
 
 
 /*
@@ -17,17 +17,11 @@ const ListLink = props => (
 
 export default ({ children }) => (
     <div>
-        <div id="container">
-            {children}
-        </div>
-        <div class="info-container">
-            <Link to="https://github.com/pranandarao">
-                <FontAwesomeIcon icon={["fab", "github-square"]} />
-            </Link>
-            <br/>
-            <FontAwesomeIcon icon={["fab", "linkedin"]} />
-            <br/>
-            <FontAwesomeIcon icon={["fab", "devpost"]} />
-        </div>
+    <head>
+        <script src="js/modernizr.js"></script>
+        
+        <title>Pranav Anandarao</title>
+    </head>
+        {children}
     </div>
 )

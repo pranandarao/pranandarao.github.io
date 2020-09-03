@@ -1,72 +1,74 @@
-body {
-  background: linear-gradient(-45deg, #6252ee, #3c4de7, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 30s ease infinite;
-}
-
-@keyframes gradient {
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+@keyframes showTopText {
   0% {
-    background-position: 0% 50%;
+    transform: translate3d(0, 100%, 0);
   }
-  50% {
-    background-position: 100% 50%;
+  40%,
+  60% {
+    transform: translate3d(0, 50%, 0);
   }
   100% {
-    background-position: 0% 50%;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes showBottomText {
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
   }
 }
 
-#container {
-  width: 75%;
-  height: auto;
-  margin-top: 10vh;
-  margin-bottom: 100px;
-  margin-left: 12.5%;
-  border-radius: 8px;
-  box-shadow: inset 0 0 0
-    1000000000000000000000000000000000000000000000000000000000000000px
-    rgba(255, 255, 255, 0.2);
+body {
+  background-color: #d4d4d4;
 }
 
-.main-content {
-  left: 10%;
-  right: 10%;
-  color: white;
-  padding-left: 10%;
-  padding-right: 10%;
+.animated-title {
+  color: #222;
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
 }
-
-.main-content p {
-  text-align-last: center;
-  font-size: 1.8rem;
-  font-weight: 700;
-  line-height: 1.4;
-
-  color: #ffffff;
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
 }
-
-.main-content h1 {
-  text-align: center;
-  font-size: 5.2rem;
-  color: #ffffff;
+.animated-title > div div {
+  font-size: 8vh;
+  padding: 2vmin 0;
+  position: absolute;
 }
-
-.info-container {
-  position: fixed;
-  width: 12.5%;
-  margin-right: 0;
-  right: -0%;
-  top: 10%;
-  font-size: 4em;
-  color: white;
-  text-align: center;
+.animated-title > div div span {
+  display: block;
 }
-
-a {
-  color: #fff;
-  text-decoration: "none";
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid #000;
+  top: 0;
 }
-a:hover {
-  color: #fff;
-  text-decoration: "none";
+.animated-title > div.text-top div {
+  animation: showTopText 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #767676;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
 }

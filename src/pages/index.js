@@ -3,22 +3,23 @@ import Layout from "../components/layout"
 
 export default () => (
 <Layout>
-    <section class="cd-intro">
-        <div class="cd-intro-content mask-2">
-            <div class="content-wrapper">
-                <div>
-                    <h1>Hi, I'm Pranav</h1>
-                    <p>Welcome to my website</p>
-                    <div class="action-wrapper">
-                        <a href="#0" class="button main-action"><span>Get started</span></a>
-                    </div>
-                </div>
+    <div class="animated-title">
+        <div class="text-top">
+            <div>
+                <span>Welcome</span>
+                <span>I'm Pranav</span>
             </div>
         </div>
-    </section>
-    <div class="main-content">
-        <h1>About</h1>
-        <p>I'm currently a Sophomore at Purdue University majoring in Computer Engineering and minoring in Mathematics. I'm also really interested in </p>
+        <div class="text-bottom">
+            <div class="ms-slider">
+                <ul class="ms-slider__words">
+                    <li class="ms-slider__word">Computer Engineering</li>
+                    <li class="ms-slider__word">Software Development</li>
+                    <li class="ms-slider__word">Data Science</li>
+                    <li class="ms-slider__word">Computer Engineering</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </Layout>
 )
