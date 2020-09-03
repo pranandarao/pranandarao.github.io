@@ -3,19 +3,14 @@
 Primary style
 
 -------------------------------- */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  color: #040404;
-  background-color: #ffffff;
 }
 
 a {
@@ -90,7 +85,7 @@ General Style
   font-weight: bold;
   letter-spacing: 1px;
   background-color: #202e4a;
-  border-radius: .25em;
+  border-radius: 0.25em;
   margin-right: 1.5em;
   transition: all 0.5s;
   cursor: pointer;
@@ -110,7 +105,7 @@ General Style
 }
 
 .button span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -152,10 +147,10 @@ General Style
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-.no-cssanimations .cd-intro-content h1, .no-cssanimations
-.cd-intro-content h1 span, .no-cssanimations
-.cd-intro-content p, .no-cssanimations
-.cd-intro-content .button {
+.no-cssanimations .cd-intro-content h1,
+.no-cssanimations .cd-intro-content h1 span,
+.no-cssanimations .cd-intro-content p,
+.no-cssanimations .cd-intro-content .button {
   opacity: 1;
 }
 
@@ -179,7 +174,7 @@ Mask 2
 }
 .mask-2.cd-intro-content .content-wrapper::before {
   /* vertical bar */
-  content: '';
+  content: "";
   position: absolute;
   z-index: 2;
   top: 0;
@@ -290,10 +285,14 @@ Mask 2
   }
 }
 @-webkit-keyframes cd-pulse {
-  0%, 30.8% {
+  0%,
+  30.8% {
     opacity: 0;
   }
-  15.4%, 46.2%, 61.5%, 70% {
+  15.4%,
+  46.2%,
+  61.5%,
+  70% {
     opacity: 1;
   }
   100% {
@@ -301,10 +300,14 @@ Mask 2
   }
 }
 @-moz-keyframes cd-pulse {
-  0%, 30.8% {
+  0%,
+  30.8% {
     opacity: 0;
   }
-  15.4%, 46.2%, 61.5%, 70% {
+  15.4%,
+  46.2%,
+  61.5%,
+  70% {
     opacity: 1;
   }
   100% {
@@ -312,10 +315,14 @@ Mask 2
   }
 }
 @keyframes cd-pulse {
-  0%, 30.8% {
+  0%,
+  30.8% {
     opacity: 0;
   }
-  15.4%, 46.2%, 61.5%, 70% {
+  15.4%,
+  46.2%,
+  61.5%,
+  70% {
     opacity: 1;
   }
   100% {

@@ -16,7 +16,7 @@ export default () => (
             </div>
         </div>
     </section>
-    <div class="main-section">
+    <div class="main-content">
         <h1>About</h1>
         <p>I'm currently a Sophomore at Purdue University majoring in Computer Engineering and minoring in Mathematics. I'm also really interested in </p>
     </div>
