@@ -1,8 +1,8 @@
 import React from "react"
-import Layout from "../components/layout"
+//import Layout from "../components/layout"
 
 export default () => (
-<Layout>
+<div>
     <div class="animated-title">
         <div class="text-top">
             <div>
@@ -13,13 +13,16 @@ export default () => (
         <div class="text-bottom">
             <div class="ms-slider">
                 <ul class="ms-slider__words">
-                    <li class="ms-slider__word">Computer Engineering</li>
-                    <li class="ms-slider__word">Software Development</li>
-                    <li class="ms-slider__word">Data Science</li>
-                    <li class="ms-slider__word">Computer Engineering</li>
+                    <li class="ms-slider__word">Computer Engineer</li>
+                    <li class="ms-slider__word">Software Developer</li>
+                    <li class="ms-slider__word">Data Scientist</li>
+                    <li class="ms-slider__word">Computer Engineer</li>
                 </ul>
             </div>
         </div>
     </div>
-</Layout>
+    <div class="buttons">
+        <a href="/index" class="btn effect01"><span>Learn More</span></a>
+    </div>
+</div>
 )

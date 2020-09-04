@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to right bottom, #9dd7d5, #fea096);
@@ -20,7 +20,7 @@
 
 .ms-slider {
   display: inline-block;
-  height: 1.8em;
+  height: 12vmin;
   overflow: hidden;
   vertical-align: middle;
   mask-image: linear-gradient(transparent, white, white, white, transparent);
@@ -29,6 +29,7 @@
 }
 
 .ms-slider__words {
+  font-size: 6vmin;
   display: inline-block;
   margin: 0;
   padding: 0;
