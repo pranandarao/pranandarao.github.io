@@ -1,10 +1,11 @@
 import React from "react"
-//import { library } from '@fortawesome/fontawesome-svg-core'
-//import { fab } from '@fortawesome/free-brands-svg-icons'
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-//import { Link } from 'gatsby'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from 'gatsby'
 
-//library.add(fab)
+library.add(fab)
 
 
 /*
@@ -22,6 +23,17 @@ export default ({ children }) => (
         
         <title>Pranav Anandarao</title>
     </head>
-        {children}
+        <div id="content-desktop">
+            <div class="nav-desktop">
+                <Link to="https://github.com/pranandarao"><FontAwesomeIcon icon={["fab", "github-square"]} /></Link>
+                <FontAwesomeIcon icon={["fa-home"]} />
+            </div>
+            <div class="site-content">
+                {children}
+            </div>
+        </div>
+        <div id="content-mobile">
+            {children}
+        </div>        
     </div>
 )

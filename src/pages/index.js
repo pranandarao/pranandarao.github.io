@@ -22,7 +22,7 @@ export default () => (
         </div>
     </div>
     <div class="buttons">
-        <a href="/index" class="btn effect01"><span>Learn More</span></a>
+        <a href="/about" class="btn effect01"><span>Learn More</span></a>
     </div>
 </div>
 )

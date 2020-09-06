@@ -20,7 +20,7 @@
 
 .ms-slider {
   display: inline-block;
-  height: 12vmin;
+  height: 13vmin;
   overflow: hidden;
   vertical-align: middle;
   mask-image: linear-gradient(transparent, white, white, white, transparent);
@@ -29,7 +29,7 @@
 }
 
 .ms-slider__words {
-  font-size: 6vmin;
+  font-size: 6.5vmin;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -38,7 +38,7 @@
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
   animation-duration: 10s;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 .ms-slider__word {
