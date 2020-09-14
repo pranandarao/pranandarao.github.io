@@ -20,6 +20,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #3aafa9;
   overflow: hidden;
@@ -164,8 +168,14 @@ body {
 
 .site-content {
   margin-top: 12vh;
+  width: 65vw;
+  margin-left: 17.5vw;
+  height: auto;
+}
+
+.site-content-mobile {
+  margin-top: 12vh;
   width: 80vw;
-  left: 10vw;
   margin-left: 10vw;
   height: auto;
 }
@@ -197,7 +207,38 @@ body {
   position: fixed;
 }
 
+.home-container-mobile {
+  left: 0vw;
+  top: 0;
+  width: 100%;
+  margin-left: 0;
+  height: 8vh;
+  vertical-align: middle;
+  background-color: #2b7a78;
+  position: fixed;
+}
+
 .home {
   margin-left: 10vw;
   font-size: 7vh;
+}
+
+h1 {
+  color: #def2f1;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 12vh;
+  margin-top: -12vh;
+}
+
+p {
+  color: #17252a;
+}
+
+a {
+  text-decoration: none;
+}
+
+.spacer {
+  height: 100vh;
 }
