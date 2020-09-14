@@ -6,8 +6,8 @@ export default () => (
     <div class="animated-title">
         <div class="text-top">
             <div>
-                <span>Welcome</span>
-                <span>I'm Pranav</span>
+                <span id="intro">Welcome</span>
+                <span id="name">I'm Pranav</span>
             </div>
         </div>
         <div class="text-bottom">

@@ -1,5 +1,17 @@
 import React from "react"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from 'gatsby'
 //import Layout from "../components/layout"
+
+library.add(fab, fas)
+
+const linkStyles = {
+  color: 'black',
+  textDecoration: 'none'
+}
 
 export default () => (
 <div class="Menu">
@@ -25,5 +37,10 @@ export default () => (
       <span class="Mask"><span>Contact</span></span>
     </li>
   </ul>
+  <Link to="https://github.com/pranandarao" style={linkStyles}><FontAwesomeIcon icon={["fab", "github-square"]} /></Link>
+                <br />
+                <Link to="https://www.linkedin.com/in/pranav-anandarao-6bb570191/" style={linkStyles}><FontAwesomeIcon icon={["fab", "linkedin"]} /></Link>
+                <br />
+                <Link to="/" style={linkStyles}><FontAwesomeIcon icon={["fas", "file"]} /></Link>
 </div>
 )

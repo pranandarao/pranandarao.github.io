@@ -8,14 +8,16 @@ import { Link } from 'gatsby'
 library.add(fab, fas)
 
 const linkStyles = {
-    color: 'black',
+    color: '#feffff',
     textDecoration: 'none'
 }
 
+/*
 const linkStyles2 = {
     color: '#d4d4d4',
     textDecoration: 'none'
 }
+*/
 
 
 
@@ -35,14 +37,10 @@ export default ({ children }) => (
         <title>Pranav Anandarao</title>
     </head>
         <div id="content-desktop">
-            <div class="nav-desktop">
-                <Link to="https://github.com/pranandarao" style={linkStyles}><FontAwesomeIcon icon={["fab", "github-square"]} /></Link>
-                <br />
-                <Link to="https://www.linkedin.com/in/pranav-anandarao-6bb570191/" style={linkStyles}><FontAwesomeIcon icon={["fab", "linkedin"]} /></Link>
-                <br />
-                <Link to="/" style={linkStyles}><FontAwesomeIcon icon={["fas", "file"]} /></Link>
-            </div>
             <div class="home-container">
+                <div class="name">
+                    <Link to="/" style={linkStyles}>Pranav Anandarao</Link>
+                </div>
                 <div class="Menu">
                     <ul class="Menu-list" data-offset="10">
                         <Link to="/" style={linkStyles}>

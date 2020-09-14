@@ -5,4 +5,4 @@ const typography = new Typography(
     typeTheme
 );
 
-export default typography;  
+export default typography;
