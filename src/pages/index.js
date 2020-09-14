@@ -3,6 +3,11 @@ import React from "react"
 
 export default () => (
 <div>
+    <head>
+        <script src="js/modernizr.js"></script>
+        
+        <title>Pranav Anandarao</title>
+    </head>
     <div class="animated-title">
         <div class="text-top">
             <div>

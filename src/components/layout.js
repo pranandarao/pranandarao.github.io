@@ -1,11 +1,11 @@
 import React from "react"
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas } from '@fortawesome/free-solid-svg-icons'
+//import { library } from '@fortawesome/fontawesome-svg-core'
+//import { fab } from '@fortawesome/free-brands-svg-icons'
+//import { fas } from '@fortawesome/free-solid-svg-icons'
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from 'gatsby'
 
-library.add(fab, fas)
+//library.add(fab, fas)
 
 const linkStyles = {
     color: '#feffff',
@@ -26,11 +26,6 @@ const ListLink = props => (
     </li>
 )
 */
-
-if (typeof window !== "undefined") {
-    // eslint-disable-next-line global-require
-    require("smooth-scroll")('a[href*="#"]')
-}
 
 export default ({ children }) => (
     <div>
@@ -53,27 +48,27 @@ export default ({ children }) => (
                         <span class="Mask"><span>Home</span></span>
                         </li>
                         </Link>
-                        <a href="#about">
+                        <Link to="/about" style={linkStyles}>
                         <li class="Menu-list-item" data-offset="16">
                         About
                         <span class="Mask"><span>About</span></span>
                         <span class="Mask"><span>About</span></span>
                         </li>
-                        </a>
-                        <a href="#projects">
+                        </Link>
+                        <Link to="/projects" style={linkStyles}>
                         <li class="Menu-list-item" data-offset="12">
                         Projects
                         <span class="Mask"><span>Projects</span></span>
                         <span class="Mask"><span>Projects</span></span>
                         </li>
-                        </a>
-                        <a href="#contact">
+                        </Link>
+                        <Link to="/contact" style={linkStyles}>
                         <li class="Menu-list-item" data-offset="8">
                         Contact
                         <span class="Mask"><span>Contact</span></span>
                         <span class="Mask"><span>Contact</span></span>
                         </li>
-                        </a>
+                        </Link>
                     </ul>
                 </div>
             </div>
@@ -92,27 +87,27 @@ export default ({ children }) => (
                         <span class="Mask"><span>Home</span></span>
                         </li>
                         </Link>
-                        <a href="#about">
+                        <Link to="/about" style={linkStyles}>
                         <li class="Menu-list-item" data-offset="16">
                         About
                         <span class="Mask"><span>About</span></span>
                         <span class="Mask"><span>About</span></span>
                         </li>
-                        </a>
-                        <a href="#projects">
+                        </Link>
+                        <Link to="/projects" style={linkStyles}>
                         <li class="Menu-list-item" data-offset="12">
                         Projects
                         <span class="Mask"><span>Projects</span></span>
                         <span class="Mask"><span>Projects</span></span>
                         </li>
-                        </a>
-                        <a href="#contact">
+                        </Link>
+                        <Link to="/contact" style={linkStyles}>
                         <li class="Menu-list-item" data-offset="8">
                         Contact
                         <span class="Mask"><span>Contact</span></span>
                         <span class="Mask"><span>Contact</span></span>
                         </li>
-                        </a>
+                        </Link>
                     </ul>
                 </div>
             </div>

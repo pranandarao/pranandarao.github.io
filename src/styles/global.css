@@ -229,16 +229,37 @@ h1 {
   text-transform: uppercase;
   padding-top: 12vh;
   margin-top: -12vh;
+  font-size: 1.75rem;
 }
 
 p {
   color: #17252a;
+  font-size: 1.25rem;
 }
 
 a {
   text-decoration: none;
+  color: #def2f1;
 }
 
 .spacer {
   height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 9vh;
+  color: #17252a;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+
+.logo-spacer {
+  width: 3vw;
+}
+
+.svg {
+  height: 9vh;
+  margin-top: 2.5vh;
 }
