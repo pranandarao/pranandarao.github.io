@@ -3,6 +3,7 @@
   width: 90vmin;
   height: 60vmin;
   overflow: hidden;
+  left: 0vw;
   margin: 0 auto;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   margin-bottom: 2vh;
@@ -15,6 +16,7 @@
 .slide {
   float: right;
   position: absolute;
+  margin-left: 0;
   z-index: 1;
   width: 90vmin;
   height: 60vmin;

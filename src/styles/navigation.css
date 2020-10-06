@@ -14,7 +14,7 @@
 }
 
 .Menu-list-mobile {
-  font-size: 2.5vh;
+  font-size: 5vmin;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
@@ -26,6 +26,7 @@
   -webkit-box-align: center;
   align-items: right;
   justify-content: center;
+  margin-left: 4vw;
 }
 
 .Menu-list-item {
@@ -41,6 +42,7 @@
   cursor: pointer;
   margin-right: 4vw;
   margin-top: 2.5vh;
+  margin-left: 0vw;
 }
 .Menu-list-item::before {
   content: "";
