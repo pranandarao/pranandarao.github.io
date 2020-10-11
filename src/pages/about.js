@@ -30,6 +30,8 @@ export default () => (
         <FontAwesomeIcon icon={["fab", "node-js"]} />
         <div class="logo-spacer" />
         <FontAwesomeIcon icon={["fab", "react"]} />
+        <div class="logo-spacer" />
+        <FontAwesomeIcon icon={["fab", "angular"]} />
     </div>
     <p>I'm also experienced with data analysis softwares such as MATLAB and R, along with a few different data visualization techniques.</p>
 </Layout>
