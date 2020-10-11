@@ -13,7 +13,7 @@ export default () => (
 <Layout>
     <h1>ABOUT</h1>
     <p>Hi, I'm a student at Purdue University studying computer engineering and minoring in math. I'm mostly interested in electronics, programming, and data science.</p>
-    <p>Right now I'm a teaching assistant for an introductory engineering course, which allows me to better both my technical skills, but also my leadership and communcation skills.</p>
+    <p>Right now I'm a teaching assistant for an introductory engineering course, which allows me to not only improve my technical skills, but also my leadership and communcation skills.</p>
     <h1>Stuff I can do</h1>
     <p>I have experience in a lot of different subjects, including software development, programming, math, and circuitry.</p>
     <div class="logo-container">
