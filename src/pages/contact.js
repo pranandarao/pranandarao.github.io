@@ -22,7 +22,7 @@ export default () => (
         <div class="logo-spacer" />
         <Link to="https://www.linkedin.com/in/pranav-anandarao-6bb570191/" style={linkStyles}><FontAwesomeIcon icon={["fab", "linkedin"]} /></Link>
         <div class="logo-spacer" />
-        <Link to="https://drive.google.com/file/d/15OrqMsjono-NSv-ZZyrPa27-9rmVW7lO/view?usp=sharing" style={linkStyles}><FontAwesomeIcon icon={["fas", "file"]} /></Link>
+        <Link to="https://drive.google.com/file/d/1tMf8JASh8XMcFBWI38su73llJDb4_2z_/view?usp=sharing" style={linkStyles}><FontAwesomeIcon icon={["fas", "file"]} /></Link>
     </div>
 </Layout>
 )
