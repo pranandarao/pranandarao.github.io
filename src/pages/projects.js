@@ -20,17 +20,27 @@ export default () => (
     <div class="carousel">
         <input type="checkbox" class="faux-ui-facia" /> 
         <div class="slide" slide="3" annot="More to come, but enjoy this picture I took of NEOWISE for now.">
-            <img src="/DSC_8455.JPG"  alt="Slide 3" />
+            <img src="/DSC_8455.JPG"  alt="Slide 4" />
         </div>
 
         <input type="checkbox" class="faux-ui-facia" />
         <div class="slide" slide="2" annot="BoilerMake - Cam Mouse">
-            <img src="/cam-mouse.jpg"  alt="Slide 2" />
+            <img src="/cam-mouse.jpg"  alt="Slide 3" />
         </div>
 
         <input type="checkbox" class="faux-ui-facia" />
            <div class="slide" slide="1" annot="VandyHacks - Social Savage">
-            <img src="/social-savage.jpg" alt="Slide 1" />
+            <img src="/social-savage.jpg" alt="Slide 2" />
+        </div>
+
+        <input type="checkbox" class="faux-ui-facia" /> 
+        <div class="slide" slide="3" annot="HackTX - Farm Assist">
+            <img src="/farmassist.PNG"  alt="Slide 1" />
+        </div>
+
+        <input type="checkbox" class="faux-ui-facia" /> 
+        <div class="slide" slide="3" annot="Boilermake - Sentivents">
+            <img src="/sentivents.jpg"  alt="Slide 1" />
         </div>
     </div>
     <p>See more details, and other projects: </p>

@@ -41,13 +41,6 @@ export default ({ children }) => (
                 </div>
                 <div class="Menu">
                     <ul class="Menu-list" data-offset="10">
-                        <Link to="/" style={linkStyles}>
-                        <li class="Menu-list-item" data-offset="20">
-                        Home
-                        <span class="Mask"><span>Home</span></span>
-                        <span class="Mask"><span>Home</span></span>
-                        </li>
-                        </Link>
                         <Link to="/about" style={linkStyles}>
                         <li class="Menu-list-item" data-offset="16">
                         About
