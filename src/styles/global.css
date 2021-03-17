@@ -263,3 +263,8 @@ a {
   height: 9vh;
   margin-top: 2.5vh;
 }
+
+.resume-link {
+  text-decoration: none;
+  color: #17252A;
+}

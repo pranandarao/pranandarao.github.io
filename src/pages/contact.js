@@ -22,7 +22,7 @@ export default () => (
         <div class="logo-spacer" />
         <Link to="https://www.linkedin.com/in/pranav-anandarao-6bb570191/" style={linkStyles}><FontAwesomeIcon icon={["fab", "linkedin"]} /></Link>
         <div class="logo-spacer" />
-        <Link to="https://drive.google.com/file/d/1tMf8JASh8XMcFBWI38su73llJDb4_2z_/view?usp=sharing" style={linkStyles}><FontAwesomeIcon icon={["fas", "file"]} /></Link>
+        <a class="resume-link" href="/Pranav_Anandarao_Resume.pdf"><FontAwesomeIcon icon={["fas", "file"]} /></a>
     </div>
 </Layout>
 )
