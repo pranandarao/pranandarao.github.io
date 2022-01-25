@@ -9,7 +9,7 @@ import { Link } from 'gatsby'
 library.add(fab, fas)
 
 const linkStyles = {
-    color: '#17252A',
+    color: '#FC5130',
     textDecoration: 'none'
 }
 

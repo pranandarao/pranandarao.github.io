@@ -25,13 +25,13 @@ html {
 }
 
 body {
-  background-color: #3aafa9;
+  background-color: #fffaff;
   overflow: hidden;
 }
 
 .animated-title {
   text-transform: uppercase;
-  color: #17252a;
+  color: #303036;
   font-family: Roboto, Arial, sans-serif;
   height: 90vmin;
   left: 50%;
@@ -55,7 +55,7 @@ body {
   display: block;
 }
 .animated-title > div.text-top {
-  border-bottom: 1vmin solid #17252a;
+  border-bottom: 1vmin solid #303036;
   top: 0;
 }
 #name {
@@ -73,7 +73,7 @@ body {
   padding: 0;
 }
 .animated-title > div.text-top div span:first-child {
-  color: #feffff;
+  color: #30bced;
 }
 .animated-title > div.text-bottom {
   bottom: 0;
@@ -105,16 +105,16 @@ body {
 /*btn_background*/
 .effect01 {
   color: #fff;
-  border: 4px solid #17252a;
-  box-shadow: 0px 0px 0px 1px #17252a inset;
-  background-color: #17252a;
+  border: 4px solid #303036;
+  box-shadow: 0px 0px 0px 1px #303036 inset;
+  background-color: #303036;
   overflow: hidden;
   position: relative;
   transition: all 0.3s ease-in-out;
 }
 .effect01:hover {
-  border: 4px solid #2b7a78;
-  background-color: #feffff;
+  border: 4px solid #303036;
+  background-color: #30bced;
   box-shadow: 0px 0px 0px 4px #eee inset;
 }
 
@@ -131,7 +131,7 @@ body {
 /*highlight*/
 .effect01:after {
   background: #fff;
-  border: 0px solid #17252a;
+  border: 0px solid #303036;
   content: "";
   height: 155px;
   left: -75px;
@@ -146,7 +146,7 @@ body {
 }
 .effect01:hover:after {
   background: #fff;
-  border: 20px solid #17252a;
+  border: 20px solid #303036;
   opacity: 0;
   left: 120%;
   -webkit-transform: rotate(40deg);
@@ -203,7 +203,8 @@ body {
   margin-left: 0;
   height: 8vh;
   vertical-align: middle;
-  background-color: #2b7a78;
+  background-color: #303036;
+  color: #fffaff;
   position: fixed;
 }
 
@@ -214,7 +215,7 @@ body {
   margin-left: 0;
   height: 8vh;
   vertical-align: middle;
-  background-color: #2b7a78;
+  background-color: #303036;
   position: fixed;
 }
 
@@ -224,7 +225,7 @@ body {
 }
 
 h1 {
-  color: #def2f1;
+  color: #30BCED;
   text-align: center;
   text-transform: uppercase;
   padding-top: 12vh;
@@ -233,13 +234,13 @@ h1 {
 }
 
 p {
-  color: #17252a;
+  color: #303036;
   font-size: 1.25rem;
 }
 
 a {
   text-decoration: none;
-  color: #def2f1;
+  color: #fc5130;
 }
 
 .spacer {
@@ -250,7 +251,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   font-size: 9vh;
-  color: #17252a;
+  color: #FC5130;
   justify-content: center;
   margin-bottom: 2vh;
 }
@@ -266,5 +267,5 @@ a {
 
 .resume-link {
   text-decoration: none;
-  color: #17252A;
+  color: #FC5130;
 }

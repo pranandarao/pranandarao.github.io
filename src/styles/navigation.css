@@ -54,7 +54,7 @@
   height: 4px;
   border-radius: 4px;
   margin-top: -2px;
-  background: #feffff;
+  background: #fffaff;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition: -webkit-transform 0.8s
@@ -76,7 +76,7 @@
   height: 4px;
   border-radius: 4px;
   margin-top: -2px;
-  background: #feffff;
+  background: #fffaff;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition: -webkit-transform 0.8s
@@ -92,7 +92,7 @@
   display: block;
   position: absolute;
   overflow: hidden;
-  color: #feffff;
+  color: #fffaff;
   top: 0;
   height: 49%;
   -webkit-transition: all 0.8s cubic-bezier(0.16, 1.08, 0.38, 0.98);
@@ -113,7 +113,7 @@
 
 .Menu-list-item:hover .Mask,
 .Menu-list-item:active .Mask {
-  color: #feffff;
+  color: #fffaff;
   -webkit-transform: skewX(12deg) translateX(5px);
   transform: skewX(12deg) translateX(5px);
 }
@@ -137,4 +137,5 @@
   margin-top: 0.75vh;
   margin-left: 5vw;
   font-weight: bolder;
+  color: #fffaff;
 }

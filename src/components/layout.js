@@ -8,7 +8,7 @@ import { Link } from 'gatsby'
 //library.add(fab, fas)
 
 const linkStyles = {
-    color: '#feffff',
+    color: '#fffaff',
     textDecoration: 'none'
 }
 
