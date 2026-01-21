@@ -1,0 +1,15 @@
+:root {
+  /* Color Palette: https://coolors.co/30bced-303036-fffaff-fc5130-050401 */
+  --color-1: #30bced;
+  --color-2: #303036;
+  --color-3: #fffaff;
+  --color-4: #fc5130;
+  --color-5: #050401;
+
+  --background-color: var(--color-3);
+  --background-color-timeline: var(--color-2);
+  --accent-color-primary: var(--color-1);
+  --accent-color-secondary: var(--color-4);
+  --text-color-light: var(--color-3);
+  --text-color-dark: var(--color-5);
+}

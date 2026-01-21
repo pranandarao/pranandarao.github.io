@@ -1,0 +1,45 @@
+---
+import '../styles/timeline.css';
+
+import TimelineEntry from './TimelineEntry.astro';
+
+const timelineContent = [
+  {
+    title: "October 2025",
+    content: "After a re-org I was moved to the Heimdall Team",
+  },
+  {
+    title: "December 2023",
+    content: "Joined the DROID team",
+  },
+  {
+    title: "May 2023",
+    content: "Graduated with my Master's degree in Computer Engineering",
+  },
+  {
+    title: "May-August 2022",
+    content: "Interned at Amazon",
+  },
+  {
+    title: "May 2022",
+    content: "Graduated with my Bachelor's Degree with Honors in Computer Engineering with a minor in Mathematics",
+  },
+  {
+    title: "May-August 2021",
+    content: "Interned at Honda",
+  },
+  {
+    title: "August 2019",
+    content: "Started at Purdue"
+  }
+];
+---
+
+<div class="timeline">
+  {timelineContent.map((entry, index) => (
+  <TimelineEntry direction={index % 2 == 0 ? "left" : "right"} title={entry.title}>
+    <h3>test</h3>
+    <p>{entry.content}</p>
+  </TimelineEntry>
+  ))}
+</div>

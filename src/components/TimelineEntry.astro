@@ -1,0 +1,16 @@
+---
+import '../styles/timeline.css'
+
+const {
+  direction,
+  title,
+} = Astro.props;
+---
+
+<div class={"container " + direction}>
+  <div class="content">
+    <h2>{title}</h2>
+    <slot />
+  </div>
+</div>
+
